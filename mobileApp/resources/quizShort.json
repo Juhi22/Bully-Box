@@ -1,0 +1,182 @@
+{
+  "0": {
+     "Három orvos szerint Robi a testvérük, de ő azt mondja, hogy nincs fiútestvére. Ki hazudik?": [
+        {
+           "az orvosok": "bad"
+        },
+        {
+           "senki": "good"
+        },
+        {
+           "robi": "bad"
+        }
+     ]
+  },
+  "1": {
+     "A felsoroltak közül, mi Görögország jellegzetes itala?": [
+        {
+           "beherovka": "bad"
+        },
+        {
+           "vodka": "bad"
+        },
+        {
+           "ouzo": "good"
+        }
+     ]
+  },
+  "2": {
+     "task": "kábl cím",
+     "V": "vágd el a kábl-t"
+  },
+  "3": {
+     "Mi a neve Dél-Korea legnagyobb technológiai vállalatának?": [
+        {
+           "Siemens": "bad"
+        },
+        {
+           "Samsung": "good"
+        },
+        {
+           "Fujitsu": "bad"
+        }
+     ]
+  },
+  "4": {
+     "Melyik fémet fedezte fel Hans Christian Oersted 1825-ben?": [
+        {
+           "alumínium": "good"
+        },
+        {
+           "vas": "bad"
+        },
+        {
+           "réz": "bad"
+        }
+     ]
+  },
+  "5": {
+     "task": "húzás cím",
+     "H": "húzd az izét"
+  },
+  "6": {
+     "Milyen nemzetiségű volt Henri Matisse művész?": [
+        {
+           "Német": "bad"
+        },
+        {
+           "Belga": "bad"
+        },
+        {
+           "Francia": "good"
+        }
+     ]
+  },
+  "7": {
+     "Ki volt a BBC Év sportszemélyisége 2001-ben?": [
+        {
+           "Zinédine Zidane": "bad"
+        },
+        {
+           "Thierry Henry": "bad"
+        },
+        {
+           "David Beckham": "good"
+        }
+     ]
+  },
+  "8": {
+     "task": "alkohol szonda cím",
+     "A": "igyál + fújjad a szondát"
+  },
+  "9": {
+     "Milyen származású Sherlock Holmes?": [
+        {
+           "skót": "good"
+        },
+        {
+           "ír": "bad"
+        },
+        {
+           "dán": "bad"
+        }
+     ]
+  },
+  "10": {
+     "Ki Michael Douglas házastársa?": [
+        {
+           "Penelope Cruz": "bad"
+        },
+        {
+           "Salma Hayek": "bad"
+        },
+        {
+           "Catherine Zeta-Jones": "good"
+        }
+     ]
+  },
+  "11": {
+     "task": "zselé cím",
+     "Z": "Dúrjad a zselét asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
+  },
+  "12": {
+     "Mi Baranya megye székhelye?": [
+        {
+           "Pécs": "good"
+        },
+        {
+           "Eger": "bad"
+        },
+        {
+           "Kaposvár": "bad"
+        }
+     ]
+  },
+  "13": {
+     "Melyik volt előbb?": [
+        {
+           "Pepsi": "bad"
+        },
+        {
+           "Fanta": "bad"
+        },
+        {
+           "Coca-Cola": "good"
+        }
+     ]
+  },
+  "14": {
+     "task": "kukorica cím",
+     "K": "Készülj, kukorica fog ömleni a gébbű"
+  },
+  "15": {
+     "Kinek az operája a Pillangókisasszony?": [
+        {
+           "Giacomo Puccini": "good"
+        },
+        {
+           "Giuseppe Verdi": "bad"
+        },
+        {
+           "Richard Wagner": "bad"
+        }
+     ]
+  },
+  "16": {
+     "Mit nevezünk Kék Holdnak?": [
+        {
+           "egy adott hónapban kétszer van holdfogyatkozás": "bad"
+        },
+        {
+           "egy adott hónapban kétszer van telihold": "good"
+        },
+        {
+           "egy adott hónapban nincs telihold": "bad"
+        }
+     ]
+  },
+  "17": {
+     "task": "finish/konfetti cím",
+     "F": "Konfetti őrület!!!"
+  }
+}

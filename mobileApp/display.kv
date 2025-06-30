@@ -1,0 +1,124 @@
+#:kivy 1.0
+#:import Factory kivy.factory.Factory
+#:import MainApp main
+
+<MainMenuScreen>
+    name: "MainMenu"
+
+    FloatLayout:
+
+        SmoothButton:
+            id: roll_button
+            text: "Nyomkodj!"
+            font_size: 30
+            size_hint: 0.5, 0.5
+            pos_hint: {'center_x':0.5, 'center_y':0.5}
+            on_release:
+                root.start_quiz()
+
+<QuizScreen>
+    name: "Quiz"
+    question: question
+    answer1: answer1
+    answer2: answer2
+    answer3: answer3
+
+    FloatLayout:
+
+        QuizLabel:
+            id: question
+            pos_hint: {'center_x': .5, 'y': .78}
+            background_color: (0.8,0.8,0.8,0.9)
+            canvas.before:
+                Color:
+                    rgba: self.background_color
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        QuizLabel:
+            id: answer1
+            text: answer1.text
+            pos_hint: {'center_x': .5, 'y': .53}
+            canvas.before:
+                Color:
+                    rgba: (1,0.6,0.6,0.9)
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        QuizLabel:
+            id: answer2
+            text: answer2.text
+            pos_hint: {'center_x': .5, 'y': .28}
+            canvas.before:
+                Color:
+                    rgba: (0.6,0.6,1,0.9)
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        QuizLabel:
+            id: answer3
+            text: answer3.text
+            pos_hint: {'center_x': .5, 'y': .03}
+            canvas.before:
+                Color:
+                    rgba: (1,1,0.6,0.9)
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+<QuizLabel@Label>
+    size_hint: 0.8, 0.2
+    text_size: self.size
+    valign: 'middle'
+    halign: 'center'
+    color: (0,0,0,1)
+
+<SmoothButton@Button>
+    id: SmoothButton
+    background_color: (0,0,0,0)
+    background_normal: ''
+    back_color: (0,0,1,1)
+    border_radius: [180]
+    canvas.before:
+        Color:
+            rgba: self.back_color
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: self.border_radius
+
+<PopUpContent>:
+    popup_text: popup_text
+    Label:
+        id: popup_text
+        text: popup_text.text
+        text_size: self.size
+        valign: 'middle'
+        halign: 'center'
+        pos_hint: {"x":0.0, "y":0.0}
+        color: (0,0,0,1)
+        background_color: (0.8,0.8,0.8,0.9)
+        canvas.before:
+            Color:
+                rgba: self.background_color
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+<Popup>:
+    title_color: (0,0,0,1)
+    size_hint: (None,None)
+    size: (600,600)
+    auto_dismiss: False
+    separator_color: (0,0,0,0)
+    background: 'resources/default/popupbg.jpg'
+
+<ScreenManager>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'resources/default/screenbg.jpg'    

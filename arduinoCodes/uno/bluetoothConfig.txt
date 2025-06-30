@@ -1,0 +1,14 @@
+Átírtam a bt nevét, jelszavát, tesztelve és működik faszán (eddig másik modullal)
+
+BAUD RATE 38400
+BOTH NL & CR
+
+A link leírása fasza, csak:
+- uart converterrel csinálva
+- 5v -> 5v
+- rx -> tx
+- tx -> rx
+- nem kell gombnyomás a command mode-hoz elég ha az EN kap tápot
+- quotes/macskaköröm nem kell a jelszóhoz
+
+https://create.arduino.cc/projecthub/akshayjoseph666/change-the-name-and-password-of-hc-05-bluetooth-module-826db5
