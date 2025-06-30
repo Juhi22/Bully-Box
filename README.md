@@ -2,6 +2,8 @@
 Bully Box is a physical machine that can be used as a present, a super birthday gift... to prank you friend.
 This repo is only a place where I tried to collect some old codes to be in one place. Unfortunatelly there is no plans how to build the exact box.
 
+![alt text](https://github.com/Juhi22/Bully-Box/blob/main/bullyBox.jpg?raw=true)
+
 ## What can it do?
 ### Main feature
 Mainly this is a fusion of a quiz game and an escape room.
@@ -11,7 +13,7 @@ Between several questions there are some pranks (side features). It depends on t
 ### Side features
 - Plug in the box to a socket to get electricity, then the game starts
 - There is an audio player configured in the box, it always tells you some instructions (or laugh at you)
-- There are many numbered doors. These are locked and only opens when "story" is at that point. Behind these doors, we can find the majority of side features
+- There are many numbered doors. The numbers are changeable. These are locked and only opens when "story" is at that point. Behind these doors, we can find the majority of side features
 - Send sms to the given person (config file: `/mobileApp/resources/default/smsdata.json`)
 - Play led matrix labyrinth to get the pin code of the bluetooth
 - Try to beat the limit in the breathalyzer
